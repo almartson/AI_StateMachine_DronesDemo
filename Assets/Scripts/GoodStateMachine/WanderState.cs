@@ -23,6 +23,12 @@ public class WanderState : BaseState
     private Vector3 _myDirection;
     private Drone _myDrone;
 
+    /// <summary>
+    /// Team this Character (attached to this GameObject) belongs to.
+    /// </summary>
+    private Team _myTeam;
+
+
     /////Not used: public RaycastHit[] _myRaycastHits = new RaycastHit[10];
 
     private Quaternion _startingAngle = Quaternion.AngleAxis(-60, Vector3.up);
@@ -37,6 +43,10 @@ public class WanderState : BaseState
     public WanderState(Drone drone) : base( drone.gameObject )
     {
         this._myDrone = drone;
+
+        // Some cache variables for Optimization:
+        //
+        this._myTeam = this._myDrone.Team;
 
     }//End Constructor
 
@@ -170,9 +180,14 @@ public class WanderState : BaseState
             if (Physics.Raycast(pos, direction, out hit, GameSettings.AggroRadius))
             {
 
+                // NOTE: This line MUST BE OPTIMIZED. It can be achieved by: 'catching all Characters (in an array[ Drone ]) at Awake time in Attributes of this class or another (which could be, for instance: a GameManager.cs ), 
+                //.......and here, in this lines: I should only ask for the 'name' or ID of the GameObject... 
+                //.......and then in another line I would retrieve it:
+                //...........by making Match with the array[ Drone ], using the 'name' or 'ID' as a Key'.
+                //
                 var drone = hit.collider.GetComponent<Drone>();
 
-                if ((drone != null) && (drone.Team != this._myGameObject.GetComponent<Drone>().Team))
+                if ((drone != null) && (drone.Team != this._myTeam))
                 {
                     Debug.DrawRay(pos, direction * hit.distance, Color.red);
                     return drone.transform;
@@ -186,6 +201,9 @@ public class WanderState : BaseState
             {
                 Debug.DrawRay(pos, direction * GameSettings.AggroRadius, Color.white);
             }
+            //
+            // Change the Angle a little, for the next ray will be in Pointing to a SLIGHTLY Different Place (I have shosen 24 Rays, It will look like a Spanish 'Abanico'):
+            //
             direction = this._stepAngle * direction;
         }
 
