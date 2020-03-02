@@ -37,7 +37,10 @@ public class GameSettings : MonoBehaviour
     public static GameSettings Instance { get; private set; }
 
 
-    // Awake is called before Start
+    /// <summary>
+    /// Awake is called before Start.
+    /// This is a Singleton implementation.
+    /// </summary>
     void Awake()
     {
 
@@ -52,6 +55,5 @@ public class GameSettings : MonoBehaviour
     //void Start()
     //{
     //}//End Method
-
 
 }

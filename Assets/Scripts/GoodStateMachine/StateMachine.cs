@@ -33,11 +33,11 @@ public class StateMachine : MonoBehaviour
             this.CurrentState = this._availableStates.Values.First();
 
 
-#if UNITY_EDITOR
-            // Get the TYPE for Debuging
-            //
-            this._myDroneStateForDebug = this.CurrentState.GetType().AssemblyQualifiedName;
-#endif
+//#if UNITY_EDITOR
+//            // Get the TYPE for Debuging
+//            //
+//            this._myDroneStateForDebug = this.CurrentState.GetType().AssemblyQualifiedName;
+//#endif
 
         }//End if (CurrentState == null)
 

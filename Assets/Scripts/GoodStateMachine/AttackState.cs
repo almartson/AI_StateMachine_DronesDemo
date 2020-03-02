@@ -41,7 +41,7 @@ public class AttackState : BaseState
 
         if (this._attackReadyTimer <= 0f)
         {
-            Debug.Log("Attack!");
+            ///Debug.Log("Attack!");
             this._myDrone.FireWeapon();
 
         }//End if (this._attackReadyTimer <= 0f)

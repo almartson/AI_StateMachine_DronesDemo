@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 7077262}
   m_Layer: 8
   m_Name: Obstacle (5)
-  m_TagString: Untagged
+  m_TagString: StaticWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -216,9 +216,9 @@ GameObject:
   - component: {fileID: 199721647}
   - component: {fileID: 199721648}
   - component: {fileID: 199721645}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drone Blue 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 213828367}
   m_Layer: 0
   m_Name: D1 SceneInitialPosition
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -325,6 +325,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1187957990}
     m_Modifications:
+    - target: {fileID: 100000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -458,7 +462,7 @@ GameObject:
   - component: {fileID: 279235451}
   m_Layer: 0
   m_Name: Red_Team
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -494,7 +498,7 @@ GameObject:
   - component: {fileID: 322070858}
   m_Layer: 8
   m_Name: Wall (1)
-  m_TagString: Untagged
+  m_TagString: StaticWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -582,7 +586,7 @@ GameObject:
   - component: {fileID: 432455787}
   m_Layer: 0
   m_Name: D2 SceneInitialPosition
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -614,7 +618,7 @@ GameObject:
   - component: {fileID: 439991366}
   m_Layer: 0
   m_Name: GameSettings
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -669,7 +673,7 @@ GameObject:
   - component: {fileID: 680736612}
   m_Layer: 8
   m_Name: Wall (3)
-  m_TagString: Untagged
+  m_TagString: StaticWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -833,7 +837,7 @@ GameObject:
   - component: {fileID: 821578397}
   m_Layer: 0
   m_Name: Point Light
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -902,7 +906,7 @@ GameObject:
   - component: {fileID: 833216263}
   m_Layer: 0
   m_Name: Point Light
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -973,7 +977,7 @@ GameObject:
   - component: {fileID: 845342231}
   m_Layer: 8
   m_Name: Obstacle (4)
-  m_TagString: Untagged
+  m_TagString: StaticWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1062,9 +1066,9 @@ GameObject:
   - component: {fileID: 893952978}
   - component: {fileID: 893952980}
   - component: {fileID: 893952979}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drone Blue 2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1188,8 +1192,8 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
+  m_HDR: 0
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -1216,6 +1220,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 893952977}
     m_Modifications:
+    - target: {fileID: 100000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1339,6 +1347,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1754192350}
     m_Modifications:
+    - target: {fileID: 100000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1457,7 +1469,7 @@ GameObject:
   - component: {fileID: 1156904362}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: StaticFloor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1546,7 +1558,7 @@ GameObject:
   - component: {fileID: 1157266226}
   m_Layer: 0
   m_Name: D InitialPosition (2)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1580,7 +1592,7 @@ GameObject:
   - component: {fileID: 1164522253}
   m_Layer: 8
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: StaticWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1669,9 +1681,9 @@ GameObject:
   - component: {fileID: 1187957991}
   - component: {fileID: 1187957993}
   - component: {fileID: 1187957992}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drone Blue 3
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1741,6 +1753,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2014869631}
     m_Modifications:
+    - target: {fileID: 100000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.5
@@ -1881,7 +1897,7 @@ GameObject:
   - component: {fileID: 1298325959}
   m_Layer: 0
   m_Name: Point Light
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1949,6 +1965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087709161727443533, guid: 9914ad68befcc7a44babc555a93aecac,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4087709161727443532, guid: 9914ad68befcc7a44babc555a93aecac,
         type: 3}
@@ -2020,6 +2041,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 199721646}
     m_Modifications:
+    - target: {fileID: 100000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -2148,6 +2173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser
       objectReference: {fileID: 0}
+    - target: {fileID: 4087709161727443533, guid: 9914ad68befcc7a44babc555a93aecac,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4087709161727443532, guid: 9914ad68befcc7a44babc555a93aecac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2223,6 +2253,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser
       objectReference: {fileID: 0}
+    - target: {fileID: 4087709161727443533, guid: 9914ad68befcc7a44babc555a93aecac,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4087709161727443532, guid: 9914ad68befcc7a44babc555a93aecac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2297,7 +2332,7 @@ GameObject:
   - component: {fileID: 1420012672}
   m_Layer: 0
   m_Name: D3 SceneInitialPosition
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2328,7 +2363,7 @@ GameObject:
   - component: {fileID: 1427348034}
   m_Layer: 0
   m_Name: Blue_Team
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2361,7 +2396,7 @@ GameObject:
   - component: {fileID: 1500487799}
   m_Layer: 0
   m_Name: D InitialPosition (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2395,7 +2430,7 @@ GameObject:
   - component: {fileID: 1512638865}
   m_Layer: 8
   m_Name: Obstacle (1)
-  m_TagString: Untagged
+  m_TagString: StaticWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2484,9 +2519,9 @@ GameObject:
   - component: {fileID: 1564101487}
   - component: {fileID: 1564101488}
   - component: {fileID: 1564101486}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drone Red 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2561,7 +2596,7 @@ GameObject:
   - component: {fileID: 1588498580}
   m_Layer: 0
   m_Name: Point Light
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2629,6 +2664,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087709161727443533, guid: 9914ad68befcc7a44babc555a93aecac,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4087709161727443532, guid: 9914ad68befcc7a44babc555a93aecac,
         type: 3}
@@ -2700,6 +2740,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1564101485}
     m_Modifications:
+    - target: {fileID: 100000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8411821aa254e94aa3abfe057ee73f1, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -2816,7 +2860,7 @@ GameObject:
   - component: {fileID: 1650405612}
   m_Layer: 0
   m_Name: Point Light
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2885,9 +2929,9 @@ GameObject:
   - component: {fileID: 1754192351}
   - component: {fileID: 1754192353}
   - component: {fileID: 1754192352}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drone Red 3
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2964,7 +3008,7 @@ GameObject:
   - component: {fileID: 1824392170}
   m_Layer: 8
   m_Name: Wall (2)
-  m_TagString: Untagged
+  m_TagString: StaticWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3093,6 +3137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser
       objectReference: {fileID: 0}
+    - target: {fileID: 4087709161727443533, guid: 9914ad68befcc7a44babc555a93aecac,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4087709161727443532, guid: 9914ad68befcc7a44babc555a93aecac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3170,7 +3219,7 @@ GameObject:
   - component: {fileID: 1856290079}
   m_Layer: 8
   m_Name: Obstacle (3)
-  m_TagString: Untagged
+  m_TagString: StaticWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3258,7 +3307,7 @@ GameObject:
   - component: {fileID: 1922644773}
   m_Layer: 0
   m_Name: D InitialPosition
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3290,7 +3339,7 @@ GameObject:
   - component: {fileID: 1928023166}
   m_Layer: 0
   m_Name: Point Light
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3361,7 +3410,7 @@ GameObject:
   - component: {fileID: 1960431554}
   m_Layer: 8
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: StaticWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3456,9 +3505,9 @@ GameObject:
   - component: {fileID: 2014869632}
   - component: {fileID: 2014869634}
   - component: {fileID: 2014869633}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drone Red 2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3532,6 +3581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Laser
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087709161727443533, guid: 9914ad68befcc7a44babc555a93aecac,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4087709161727443532, guid: 9914ad68befcc7a44babc555a93aecac,
         type: 3}

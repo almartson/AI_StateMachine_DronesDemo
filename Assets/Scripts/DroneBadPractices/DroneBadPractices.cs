@@ -41,7 +41,7 @@ namespace DroneBadPracticesNamespace
 
                         while (IsPathBlocked())
                         {
-                            Debug.Log("Path Blocked");
+                            ///Debug.Log("Path Blocked");
                             GetDestination();
                         }
 

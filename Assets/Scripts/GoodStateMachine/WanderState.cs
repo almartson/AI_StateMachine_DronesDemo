@@ -103,7 +103,7 @@ public class WanderState : BaseState
             while (IsPathBlocked())
             {
                 this.FindRandomDestination();
-                Debug.Log("WALL!");
+                ///Debug.Log("WALL!");
 
             }//End while (IsPathBlocked())
 
@@ -147,7 +147,7 @@ public class WanderState : BaseState
         this._myDirection = new Vector3(this._myDirection.x, 0f, this._myDirection.z);
         this._desiredRotation = Quaternion.LookRotation(this._myDirection);
 
-        Debug.Log("Got Direction");
+        ///Debug.Log("Got Direction");
 
     }//End Method  
 
