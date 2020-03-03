@@ -38,11 +38,14 @@ The Scripts and code for this Scene can be found inside the  'Assets/scripts/Goo
 
 
 :bulb: About the Lighting:
-I decided to test an Assets called 'VertexDynamicLightmap' (Vertex Lit Shader: Baked Shadows Realtime Light, made by: Nurface): to allow having Realtime Point Lights :flashlight: (one per Drone) with Baked Lighting (i.e.: a Directional source of light, which would be: :sunny: the Sun), basically Vertex Lit (Rendering Path). It works like a charm and looks fine. You can download it in: https://assetstore.unity.com/packages/vfx/shaders/vertex-lit-shader-baked-shadows-realtime-light-75977
+I decided to test an Assets called 'VertexDynamicLightmap' (Vertex Lit Shader: Baked Shadows Realtime Light, made by: Nurface): to allow having Realtime Point Lights :flashlight: (one per Drone) with Baked Lighting (i.e.: a Directional source of light, which would be: :sunny: the Sun), basically Vertex Lit (Rendering Path). It works like a charm and looks fine. 
+You can download it in: https://assetstore.unity.com/packages/vfx/shaders/vertex-lit-shader-baked-shadows-realtime-light-75977
 
 
 :video_game: It was made in Unity 2018.4.0f1.
 
+
+I hope it to be useful for anybody studying A.I.
 
 AlMartson
 
