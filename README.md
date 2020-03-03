@@ -1,7 +1,7 @@
 # AI_StateMachine_DonesDemo
 ## What is this Project?
 
-It is a simple implementation of an :robot: A.I. behaviour :suspect:, by using the 'State Pattern' and State Machines in Unity3D :video_game:. It is fully based on two great Blog Articles written by the excellent Tutor:
+It is a simple implementation of an :robot: A.I. behaviour :suspect:, by using the 'State Pattern' and State Machines in Unity3D :video_game: and C#. It is fully based on two great Blog Articles written by the excellent Tutor:
 :necktie: Jason Weimann, of unity3d.college.
 
 
